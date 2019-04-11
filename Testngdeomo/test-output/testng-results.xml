@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19416" started-at="2019-04-11T19:03:12Z" finished-at="2019-04-11T19:03:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19416" started-at="2019-04-11T19:03:12Z" finished-at="2019-04-11T19:03:32Z">
+      <class name="com.test.GoogleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@e874448]" name="setUp" is-config="true" duration-ms="9312" started-at="2019-04-11T19:03:12Z" finished-at="2019-04-11T19:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:1, instance:com.test.GoogleTest@e874448]" name="googleTitleTest" duration-ms="12" started-at="2019-04-11T19:03:21Z" finished-at="2019-04-11T19:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="takedown()[pri:0, instance:com.test.GoogleTest@e874448]" name="takedown" is-config="true" duration-ms="674" started-at="2019-04-11T19:03:21Z" finished-at="2019-04-11T19:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takedown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@e874448]" name="setUp" is-config="true" duration-ms="4009" started-at="2019-04-11T19:03:22Z" finished-at="2019-04-11T19:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:2, instance:com.test.GoogleTest@e874448]" name="googleLogoTest" duration-ms="47" started-at="2019-04-11T19:03:26Z" finished-at="2019-04-11T19:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="takedown()[pri:0, instance:com.test.GoogleTest@e874448]" name="takedown" is-config="true" duration-ms="649" started-at="2019-04-11T19:03:26Z" finished-at="2019-04-11T19:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takedown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.GoogleTest@e874448]" name="setUp" is-config="true" duration-ms="3932" started-at="2019-04-11T19:03:27Z" finished-at="2019-04-11T19:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mailLinkTest()[pri:3, instance:com.test.GoogleTest@e874448]" name="mailLinkTest" duration-ms="74" started-at="2019-04-11T19:03:31Z" finished-at="2019-04-11T19:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailLinkTest -->
+        <test-method status="PASS" signature="takedown()[pri:0, instance:com.test.GoogleTest@e874448]" name="takedown" is-config="true" duration-ms="682" started-at="2019-04-11T19:03:31Z" finished-at="2019-04-11T19:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takedown -->
+      </class> <!-- com.test.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
