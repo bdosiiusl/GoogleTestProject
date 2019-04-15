@@ -1,4 +1,4 @@
-package com.test;
+package google.Test.Project;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;

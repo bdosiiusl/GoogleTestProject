@@ -1,4 +1,4 @@
-package com.test;
+package google.Test.Project;
 
 import java.util.concurrent.TimeUnit;
 
@@ -38,7 +38,7 @@ public class GoogleTest {
 	
 	@Test (priority=3) //3
 	public void mailLinkTest() {
-	boolean b = driver.findElement(By.linkText("Gmail")).isDisplayed();
+	boolean b = driver.findElement(By.linkText("mail")).isDisplayed();
 	}
 	
 	@AfterMethod
