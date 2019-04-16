@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.GoogleTest">
+      <class name="google.Test.Project.GoogleTitleTest">
         <methods>
           <include name="takedown"/>
+          <include name="googleTitleTest"/>
           <include name="setUp"/>
-          <include name="mailLinkTest"/>
         </methods>
-      </class> <!-- com.test.GoogleTest -->
+      </class> <!-- google.Test.Project.GoogleTitleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,13 +5,14 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class GoogleTest {
+public class GoogleTitleTest {
 	
-	WebDriver driver;
+WebDriver driver;
 	
 	@BeforeMethod
 	public void setUp(){
@@ -25,47 +26,25 @@ public class GoogleTest {
 	}
 	
 	
-	@Test (priority=1, groups="Title") //1
+	@Test
 	public void googleTitleTest() {
 		String title = driver.getTitle();
 		System.out.println("title");
-	}	
+		Assert.assertEquals(title, "Google", "title is not matching"); // This point we validate, assert means validate
+	}
 	
-	@Test (priority=3, groups="Logo") //3
+	@Test 
 	public void googleLogoTest() {
 	boolean b = driver.findElement(By.id("hplogo")).isDisplayed();
+	//Assert.assertTrue(b);
+	Assert.assertEquals(b, true);   //can be written like this aswell
 	}
 	
-	@Test (priority=2, groups="Link Test") //2
-	public void mailLinkTest() {
-	boolean b = driver.findElement(By.linkText("mail")).isDisplayed();
-	
-	}
-	
-	@Test (priority=4, groups="Test") //4
-	public void test1() {
-		System.out.println("test1");
-		
-		}
-	
-	@Test (priority=5,groups="Test") //5
-	public void test2() {
-		System.out.println("test2");
-		
-		}
-	
-	@Test (priority=6, groups="Test") //6
-	public void test3() {
-		System.out.println("test3");
-		
-		}
 	@AfterMethod
 	public void takedown(){
 		driver.quit();
 		}
-	}
-	
 	
 	
 
-
+}
