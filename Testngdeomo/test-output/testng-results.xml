@@ -1,205 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG Session Test Automation Suites" duration-ms="10815" started-at="2019-04-16T08:47:39Z" finished-at="2019-04-16T08:47:50Z">
+  <suite name="Default suite" duration-ms="48" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
     <groups>
-      <group name="Link Test">
-        <method signature="GoogleTest.mailLinkTest()[pri:2, instance:google.Test.Project.GoogleTest@670b40af]" name="mailLinkTest" class="google.Test.Project.GoogleTest"/>
-      </group> <!-- Link Test -->
-      <group name="Test">
-        <method signature="GoogleTest.test1()[pri:4, instance:google.Test.Project.GoogleTest@670b40af]" name="test1" class="google.Test.Project.GoogleTest"/>
-        <method signature="GoogleTest.test2()[pri:5, instance:google.Test.Project.GoogleTest@670b40af]" name="test2" class="google.Test.Project.GoogleTest"/>
-        <method signature="GoogleTest.test3()[pri:6, instance:google.Test.Project.GoogleTest@670b40af]" name="test3" class="google.Test.Project.GoogleTest"/>
-      </group> <!-- Test -->
-      <group name="Title">
-        <method signature="GoogleTest.googleTitleTest()[pri:1, instance:google.Test.Project.GoogleTest@670b40af]" name="googleTitleTest" class="google.Test.Project.GoogleTest"/>
-      </group> <!-- Title -->
-      <group name="Logo">
-        <method signature="GoogleTest.googleLogoTest()[pri:3, instance:google.Test.Project.GoogleTest@670b40af]" name="googleLogoTest" class="google.Test.Project.GoogleTest"/>
-      </group> <!-- Logo -->
     </groups>
-    <test name="Different testing Features Test" duration-ms="10815" started-at="2019-04-16T08:47:39Z" finished-at="2019-04-16T08:47:50Z">
-      <class name="google.Test.Project.GoogleTitleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:google.Test.Project.GoogleTitleTest@4923ab24]" name="setUp" is-config="true" duration-ms="5144" started-at="2019-04-16T08:47:39Z" finished-at="2019-04-16T08:47:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:google.Test.Project.GoogleTitleTest@4923ab24]" name="googleLogoTest" duration-ms="62" started-at="2019-04-16T08:47:44Z" finished-at="2019-04-16T08:47:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleLogoTest -->
-        <test-method status="PASS" signature="takedown()[pri:0, instance:google.Test.Project.GoogleTitleTest@4923ab24]" name="takedown" is-config="true" duration-ms="644" started-at="2019-04-16T08:47:44Z" finished-at="2019-04-16T08:47:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takedown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:google.Test.Project.GoogleTitleTest@4923ab24]" name="setUp" is-config="true" duration-ms="4208" started-at="2019-04-16T08:47:45Z" finished-at="2019-04-16T08:47:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:google.Test.Project.GoogleTitleTest@4923ab24]" name="googleTitleTest" duration-ms="16" started-at="2019-04-16T08:47:49Z" finished-at="2019-04-16T08:47:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleTitleTest -->
-        <test-method status="PASS" signature="takedown()[pri:0, instance:google.Test.Project.GoogleTitleTest@4923ab24]" name="takedown" is-config="true" duration-ms="640" started-at="2019-04-16T08:47:49Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takedown -->
-      </class> <!-- google.Test.Project.GoogleTitleTest -->
+    <test name="Default test" duration-ms="48" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
       <class name="google.Test.Project.TestNGBasics">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="setUp" is-config="true" duration-ms="14" started-at="2019-04-16T08:47:39Z" finished-at="2019-04-16T08:47:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="setUp" is-config="true" duration-ms="16" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2019-04-16T08:47:39Z" finished-at="2019-04-16T08:47:39Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="login" is-config="true" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="login" is-config="true" duration-ms="0" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="enterURL" is-config="true" duration-ms="1" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="googleLogoTest" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="googleLogoTest" duration-ms="7" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLogoTest -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="logOut" is-config="true" duration-ms="0" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="logOut" is-config="true" duration-ms="1" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="enterURL" is-config="true" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="googleTitleTest" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="googleTitleTest" duration-ms="3" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTitleTest -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="logOut" is-config="true" duration-ms="0" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="searchTest()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="searchTest" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="logOut" is-config="true" duration-ms="0" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="logOut" is-config="true" duration-ms="1" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="deleteallCookies()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="deleteallCookies" is-config="true" duration-ms="0" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="searchTest" duration-ms="2" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="logOut" is-config="true" duration-ms="1" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="deleteallCookies()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="deleteallCookies" is-config="true" duration-ms="0" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteallCookies -->
-        <test-method status="PASS" signature="generateTestReports()[pri:0, instance:google.Test.Project.TestNGBasics@5f3a4b84]" name="generateTestReports" is-config="true" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
+        <test-method status="PASS" signature="generateTestReports()[pri:0, instance:google.Test.Project.TestNGBasics@1500955a]" name="generateTestReports" is-config="true" duration-ms="0" started-at="2019-04-23T15:14:51Z" finished-at="2019-04-23T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestReports -->
       </class> <!-- google.Test.Project.TestNGBasics -->
-      <class name="google.Test.Project.InvocationCountTest">
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="4" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="2" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="3" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="3" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="2" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="2" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="2" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:google.Test.Project.InvocationCountTest@44c8afef]" name="sum" duration-ms="2" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- google.Test.Project.InvocationCountTest -->
-      <class name="google.Test.Project.TestNGFeatures">
-        <test-method status="PASS" signature="logInTest()[pri:0, instance:google.Test.Project.TestNGFeatures@7b69c6ba]" name="logInTest" duration-ms="1" started-at="2019-04-16T08:47:50Z" finished-at="2019-04-16T08:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInTest -->
-      </class> <!-- google.Test.Project.TestNGFeatures -->
-      <class name="google.Test.Project.ExceptionTimeOutTest">
-        <test-method status="PASS" signature="test()[pri:0, instance:google.Test.Project.ExceptionTimeOutTest@27f723]" name="test" duration-ms="9" started-at="2019-04-16T08:47:39Z" finished-at="2019-04-16T08:47:39Z">
-          <exception class="java.lang.NumberFormatException">
-            <message>
-              <![CDATA[For input string: "100A"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NumberFormatException: For input string: "100A"
-at java.lang.NumberFormatException.forInputString(Unknown Source)
-at java.lang.Integer.parseInt(Unknown Source)
-at java.lang.Integer.parseInt(Unknown Source)
-at google.Test.Project.ExceptionTimeOutTest.test(ExceptionTimeOutTest.java:19)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NumberFormatException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- google.Test.Project.ExceptionTimeOutTest -->
-    </test> <!-- Different testing Features Test -->
-  </suite> <!-- TestNG Session Test Automation Suites -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

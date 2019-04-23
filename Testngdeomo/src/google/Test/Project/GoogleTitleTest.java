@@ -14,7 +14,7 @@ public class GoogleTitleTest {
 	
 WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeMethod //C:\\Dev\chromedriver_win32
 	public void setUp(){
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver(); // launch Chrome
